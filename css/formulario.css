@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+} 
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin: 0 30px;
+}
+
+input, textarea {
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0;
+	font-family: Helvetica;
+}
+
+h3 {
+	margin: 0;
+	border: 1px solid gray;
+	padding: 5%;
+	font-size: 18px;
+}
+
+p {
+	margin: 0;
+	padding: 15px;
+	display: none;
+	width: 100%;
+}
+/* Formulário
+*/
+div.formulario {
+	width: 100%;
+	max-width: 400px;
+}
+
+
+.formulario fieldset {
+	margin: 5% 0;
+	padding: 5%;
+	border: 1px solid #ccc;
+	background: #f8f8f8;
+}
+
+.formulario legend {
+	font-weight: bold;
+}
+
+.formulario label {
+	display: block;
+	cursor: pointer;
+}
+/*
+input[type="text"] {
+	width: 20em;
+}
+*/
+
+.formulario input.radio, .formulario input.checkbox, .formulario input.submit {
+	width: auto;
+}
+
+.formulario .radio{
+	margin: 0 5%;
+	display: inline-block;
+}
+
+.formulario textarea {
+	width: 100%;
+}
+
+.submit {
+	width: 100%;
+	color: #fff;
+	background-color: #f90;
+	padding: 2% 10%;
+	border: none;
+	float: right;
+	font-size: bold;
+}
+
+/* Observações
+*/
+.observacoes {
+	clear: both;
+	margin-top: 20%;
+}
+
+div.observacoes:hover p {
+	border: 1px solid #f90;
+	display: block;
+	margin-bottom: 5%;
+}
+
+div.observacoes:hover h3 {
+	border: #f90;
+	background-color: #f90;
+	color: #fff;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Estilizando Formulários</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="css/formulario.css">
+	</head>
+
+	<body>
+		<div class="formulario">
+		<h2>Estilizando Formulários</h2>
+		
+		<form>
+
+			<fieldset>
+				<legend>Detalhes de Contato</legend>
+				
+				<div>
+					<label for="nome">Nome:</label>
+					<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+				</div>
+
+				<div>
+					<label for="email">Email:</label>
+					<input type="text" name="email" id="email" placeholder="nome@provedor.com.br">
+				</div>
+
+				<div>
+					<label for="url">URL:</label>
+					<input type="text" name="url" id="url" placeholder="www.seussite.com.br">
+				</div>
+				
+			</fieldset>
+
+			<fieldset>
+				<legend>Comentários</legend>
+				<div>
+					<label for="mensagem">Mensagem:</label>
+					<textarea name="mensagem" id="mensagem"placeholder="Digita aqui..."></textarea>
+					</div>
+			</fieldset>
+
+			<fieldset>
+				<legend>Lembrar de mim</legend>
+				<div>
+					<label>
+						<input class="radio" type="radio" name="lembrar" id="sim">Sim
+						<input class="radio" type="radio"  name="lembrar" id="nao">Não
+					</label>
+				</div>
+				<div>
+					<label>
+						
+					</label>
+				</div>
+			</fieldset>
+			<div>
+				<input class="submit" type="submit" name="">
+			</div>
+		</form>
+
+			<div class="observacoes"><h3>Observações:</h3>
+			<p><strong>Formulário:</strong> <strong>Form</strong> usando <strong>fieldset, legend, label, textarea</strong> e <strong>inputs (text, radio e submit)</strong>.<br>
+			Efeito de revelar o parágrafo em Observações, usando <strong>display none</strong> e depois <strong>block</strong> pra revelar.
+			</p></div>
+		</div>
+	</body>
+</html>
